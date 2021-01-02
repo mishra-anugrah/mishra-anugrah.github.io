@@ -1,0 +1,196 @@
+/* Outer container */
+.container-fluid {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #E63946;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.navigation-logo {
+    max-height: 50px;
+}
+
+.nav-item:hover {
+    color: #000;
+}
+
+.nav-link:hover {
+    padding-top: 30%;
+    background-color: #F1FAEE;
+    color: #000000;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url('https://kinsta.com/wp-content/uploads/2020/04/code-review-tools-1024x512.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 10em;
+    margin: 0;
+}
+
+.jumbotron-overlay-1 {
+    height: 110%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background-color: #000;
+    z-index: 1;
+}
+
+.jumbotron-overlay-2 {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #000;
+    z-index: 4
+}
+
+.jumbotron-contents {
+    z-index: 2;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.jumbotron-head {
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.jumbotron-lead {
+    font-size: 15px;
+    margin-bottom: 2em;
+}
+
+/* Page body */
+.page-body {
+    display: flex;
+    background-color: #c7ebec;
+    padding-top: 2em;
+}
+
+.body-sidebar {
+    background-color: #fedcab;
+    width: 15rem;
+    height: calc(100% - 10px);
+    margin-left: -15rem;
+    position: sticky; 
+    position: -webkit-sticky;
+    top: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.list-group-item {
+    background-color: rgba(12, 34,76, 0);
+    font-weight: 600;
+}
+
+.body-content {
+    background-color: #234dd6ab;
+    min-width: 100vw;
+    margin-bottom: 3em;
+    padding: 3em 1em 2em 1em;
+    text-align: justify;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.body-content-section {
+    padding: 1.5em;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #5473fa;
+    height: fit-content;
+    background-image: url('https://mooka.ie/img/sliderimages/slider-services-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.body-content-section-overlay {
+    z-index: 3;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.body-content-section > span {
+    z-index: 30;
+    position: relative;
+}
+
+.footer {
+    height: fit-content;
+    background-color: #003049;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-copyright {
+    height: 15px;
+    padding: 0 5px 3px 5px;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+
+    .body-sidebar {
+        margin-left: 0;
+    }
+
+    .body-content {
+        min-width: 0;
+        width: 100%;
+        padding-left: 2rem;
+        border-left: 3px solid #c8cfc6;
+        height: 100%;
+        padding-right: 2em;
+    }
+
+    .jumbotron-head {
+        font-size: 60px;
+    }
+
+    .jumbotron-lead {
+        font-size: 25px;
+        margin-bottom: 2em;
+    }
+}

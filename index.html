@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loggers</title>
+
+        <link rel="icon" href="images/title-icon-light.png">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/homePageStyles.css">
+    </head>
+    <body>
+
+        <!-- Outer container -->
+        <div class="container-fluid">
+
+            <!-- Header > Navigation bar -->
+            <header>
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a href="#" class="navbar-brand ">
+                        <img src="images/nav-icon-1.png" alt="Logo" class="navigation-logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Packages</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="AboutUs/index.html" class="nav-link">About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Hero Unit -->
+            <section class="jumbotron jumbotron-fluid text-center">
+                <div class="jumbotron-contents">
+                    <h1 class="jumbotron-head text-light">
+                        Welcome to Loggers
+                    </h1>
+                    <p class="lead text-light jumbotron-lead">
+                        Stuck somewhere in your code? <br /> <br />Let us help!
+                    </p>
+                </div>
+                
+                <div class="jumbotron-overlay-1"></div>
+                <div class="jumbotron-overlay-2"></div>
+            </section>
+
+            <!-- Page body -->
+            <section class="container-fluid page-body">
+                <div class="row banner banner-odd">
+                    <div class="banner-content text-light col-md-8 col-xs-12">
+                        <div class="banner-head display-3 text-center text-success"> Hastle free coding is coming! </div>
+                        <div class="banner-lead text-center text-secondary"> Now code hastle free with 24/7 available live community support! </div>
+                    </div>
+                    <div class="banner-image-div col-md-4 col-xs-12">
+                        <img src="images/banner-images/clock.gif" alt="Clock" class="banner-image img-fluid">
+                    </div>
+                </div>
+
+                <div class="row banner banner-odd banner-what">
+                    <div class="banner-image-div col-md-4 col-xs-12">
+                        <img src="images/banner-images/increasing-community.gif" alt="Increasing community" class="banner-image img-fluid">
+                    </div>
+                    <div class="banner-content text-light col-md-8 col-xs-12">
+                        <div class="banner-head display-3 text-center text-primary"> Supported by a huge community </div>
+                        <div class="banner-lead text-center text-secondary"> Join the continously expanding community </div>
+                    </div>
+                </div>
+
+                <div class="row banner banner-odd banner-what">
+                    <div class="banner-content text-light col-md-8 col-xs-12">
+                        <div class="banner-head display-3 text-center text-warning"> Also, we are HIRING! </div>
+                        <div class="banner-lead text-center text-secondary"> Are you a good developer, come with us!  </div>
+                    </div>
+                    <div class="banner-image-div col-md-4 col-xs-12">
+                        <img src="images/banner-images/banner-coding-1.png" alt="Coder guy" class="banner-image img-fluid">
+                    </div>
+                </div>
+                
+            </section>
+
+            <footer class="footer text-center text-light row">
+                <span class="col-sm-12">
+                    Copyright
+                    <span class="copyright">&copy;</span>
+                    <!-- <img src="images/copyright.png" alt="copyright" class="img-copyright">  -->
+                    2020 | All rights reserved by Loggers Firm
+                </span>
+            </footer>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+
+<!-- was it necessary to store the td items of filteredRow in other array? we could've just used the issueTypeIndex to get the value of count. -->
