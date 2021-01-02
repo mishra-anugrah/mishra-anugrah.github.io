@@ -33,7 +33,7 @@
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    height: 600px;
+    height: calc(100vh - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,11 +75,14 @@
 }
 
 .jumbotron-head {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 550;
+    text-decoration: underline overline;
+    font-family: 'Goldman', cursive;
 }
 
 .jumbotron-lead {
+    font-family: 'Goldman', cursive;
     font-size: 15px;
     margin-bottom: 2em;
 }
@@ -99,8 +102,8 @@
     justify-content: center;
 }
 
-.banner-odd {
-    
+.banner-head {
+    font-family: 'Goldman', cursive;
 }
 
 .banner-lead {
@@ -165,10 +168,6 @@
 
     .banner-content {
         order: 2;
-    }
-
-    .banner-odd {
-        padding: 0  ;
     }
 
     .banner-image-div {
