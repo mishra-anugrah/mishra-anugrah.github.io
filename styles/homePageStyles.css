@@ -98,6 +98,7 @@
 
 .banner-coming-soon {
     padding: 5em 0;
+    color:rgb(86, 87, 87)
 }
 
 .banner-content {
@@ -151,7 +152,7 @@
 }
 
 .footer-link {
-    color: #000;
+    color: rgb(86, 87, 87);
     text-decoration: none;
 }
 
